@@ -5,8 +5,8 @@ verify_ssl = true
 
 [dev-packages]
 mypy = "*"
-pytest = "*"
-black = "*"
+# pytest = "*"
+# black = "*"
 
 [packages]
 ofxstatement = "*"

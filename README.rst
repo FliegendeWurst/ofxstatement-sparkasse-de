@@ -11,8 +11,8 @@ This project provides a plugin for ofxstatement that imports German Mastercard s
 Whilst the plugin was developed for statements created by Sparkasse, it should work for all German Mastercard statements.
 Tested with statements named:
 
-- 1234xxxxxxxx5678_Abrechnung_vom_DD_MM_YYYY_Last_First.PDF
-- YYYYMMDD_1234xxxxxxxx5678_Abrechnung_vom_DD_MM_YYYY_Last_First.PDF
-- YYYYMMDD_1234xxxxxxxx5678_-_Ihre_Abrechnung_vom_DD_MM_YYYY.PDF
+* `1234xxxxxxxx5678_Abrechnung_vom_DD_MM_YYYY_Last_First.PDF`
+* `YYYYMMDD_1234xxxxxxxx5678_Abrechnung_vom_DD_MM_YYYY_Last_First.PDF`
+* `YYYYMMDD_1234xxxxxxxx5678_-_Ihre_Abrechnung_vom_DD_MM_YYYY.PDF`
 
 If you encounter any errors when using this plugin, feel free to open an issue.
