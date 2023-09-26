@@ -10,7 +10,7 @@ black = "*"
 
 [packages]
 ofxstatement = "*"
-ofxstatement-sample = {editable = true,path = "."}
+ofxstatement-mastercard-de = {editable = true, path = "."}
 pdfplumber = "0.10.2"
 
 [pipenv]

@@ -4,7 +4,7 @@
 from setuptools import find_packages
 from distutils.core import setup
 
-version = "0.0.1"
+version = "0.1.0"
 
 with open("README.rst") as f:
     long_description = f.read()
@@ -15,7 +15,7 @@ setup(
     author="Arne Keller",
     author_email="arne.keller@posteo.de",
     url="https://github.com/FliegendeWurst/ofxstatement-mastercard-de",
-    description=("Mastercard (Germany)"),
+    description=("OFXStatement plugin for Mastercard statements (Germany)"),
     long_description=long_description,
     license="GPLv3",
     keywords=["ofx", "banking", "statement"],
