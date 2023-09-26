@@ -28,6 +28,7 @@ setup(
         "Environment :: Console",
         "Operating System :: OS Independent",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Intended Audience :: End Users/Desktop",
     ],
     packages=find_packages("src"),
     package_dir={"": "src"},
