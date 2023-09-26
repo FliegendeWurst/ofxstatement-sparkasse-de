@@ -11,6 +11,7 @@ black = "*"
 [packages]
 ofxstatement = "*"
 ofxstatement-sample = {editable = true,path = "."}
+pdfplumber = "0.10.2"
 
 [pipenv]
 allow_prereleases = true
