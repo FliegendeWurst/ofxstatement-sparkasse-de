@@ -10,12 +10,12 @@ with open("README.rst") as f:
     long_description = f.read()
 
 setup(
-    name="ofxstatement-mastercard-de",
+    name="ofxstatement-sparkasse-de",
     version=version,
     author="Arne Keller",
     author_email="arne.keller@posteo.de",
-    url="https://github.com/FliegendeWurst/ofxstatement-mastercard-de",
-    description=("OFXStatement plugin for Mastercard statements (Germany)"),
+    url="https://github.com/FliegendeWurst/ofxstatement-sparkasse-de",
+    description=("OFXStatement plugin for Sparkasse PDF statements (Germany)"),
     long_description=long_description,
     license="GPLv3",
     keywords=["ofx", "banking", "statement"],
@@ -34,7 +34,7 @@ setup(
     package_dir={"": "src"},
     namespace_packages=["ofxstatement", "ofxstatement.plugins"],
     entry_points={
-        "ofxstatement": ["mastercard-de = ofxstatement.plugins.mastercard_de:MastercardPlugin"]
+        "ofxstatement": ["sparkasse-de = ofxstatement.plugins.sparkasse_de:SparkassePlugin"]
     },
     install_requires=["ofxstatement"],
     include_package_data=True,

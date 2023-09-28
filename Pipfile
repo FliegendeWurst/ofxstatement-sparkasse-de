@@ -10,7 +10,7 @@ mypy = "*"
 
 [packages]
 ofxstatement = "*"
-ofxstatement-mastercard-de = {editable = true, path = "."}
+ofxstatement-sparkasse-de = {editable = true, path = "."}
 pdfplumber = "0.10.2"
 
 [pipenv]
