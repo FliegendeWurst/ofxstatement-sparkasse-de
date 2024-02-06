@@ -54,7 +54,7 @@ class SparkasseParser(StatementParser[str]):
             for line in lines(page):
                 # TODO: read initial and final balance
                 #print(line, ";")
-                regex_account_id = r"Girokonto (?P<acct_no>\d+)"
+                regex_account_id = r"(?P<acct_no>\d+), DE\d{2} (\d{4} ){4}\d{2}"
                 m = re.search(regex_account_id, line)
                 if m is not None:
                     self.account_no = m.group("acct_no")
