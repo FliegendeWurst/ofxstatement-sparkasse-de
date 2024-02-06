@@ -28,4 +28,6 @@ The plugin was tested on the following PDF layouts:
 
 Development
 ===========
-Run ``pipenv shell``.
+See `DEVELOPMENT.rst`_
+
+.. _DEVELOPMENT.rst: ./DEVELOPMENT.rst
