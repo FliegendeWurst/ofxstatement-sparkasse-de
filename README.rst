@@ -25,3 +25,7 @@ The plugin was tested on the following PDF layouts:
 .. figure:: layout_two_columns.png
 
     Two-column view (used up to Kontoauszug 7/2020)
+
+Development
+===========
+Run ``pipenv shell``.
